@@ -1,0 +1,690 @@
+@font-face {
+    font-family: 'Proxima Semi';
+    src: url('../font/ProximaNova-SemiBoldCondensed.eot');
+    src: url('../font/ProximaNova-SemiBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../font/ProximaNova-SemiBoldCondensed.woff2') format('woff2'),
+        url('../font/ProximaNova-SemiBoldCondensed.woff') format('woff'),
+        url('../font/ProximaNova-SemiBoldCondensed.ttf') format('truetype'),
+        url('../font/ProximaNova-SemiBoldCondensed.svg#ProximaNova-SemiBoldCondensed') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Bold';
+    src: url('../font/ProximaNova-Bold.eot');
+    src: url('../font/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/ProximaNova-Bold.woff2') format('woff2'),
+        url('../font/ProximaNova-Bold.woff') format('woff'),
+        url('../font/ProximaNova-Bold.ttf') format('truetype'),
+        url('../font/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Lt';
+    src: url('../font/ProximaNova-Light.eot');
+    src: url('../font/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/ProximaNova-Light.woff2') format('woff2'),
+        url('../font/ProximaNova-Light.woff') format('woff'),
+        url('../font/ProximaNova-Light.ttf') format('truetype'),
+        url('../font/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Rg';
+    src: url('../font/ProximaNova-Regular.eot');
+    src: url('../font/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/ProximaNova-Regular.woff2') format('woff2'),
+        url('../font/ProximaNova-Regular.woff') format('woff'),
+        url('../font/ProximaNova-Regular.ttf') format('truetype'),
+        url('../font/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.header {
+    background: url(../img/Header/bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}   
+
+.header__container {
+    padding: 39px 10px 20px 10px;
+}
+
+.container__logo {
+    width: 100%;
+    padding-top: 24px;
+    background: url(../img/Header/logo.png) no-repeat center center;
+}
+
+.container__text {
+    display: none;
+}
+
+.container__block {
+    padding-top: 141px;
+}
+
+.wrap__line-element {
+    position: absolute;
+    top:calc(50% - 2px/2);
+    left: calc(50% - 250px/2);
+    height: 2px;
+    width: 250px;
+    transform: rotate(127deg);
+    background: #5d40ad;
+}
+
+.block__wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap__title {
+    position: relative;
+    padding-right: 55px;
+    color: #ffffff;
+    font-family: "Proxima Bold";
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+}
+
+.wrap__title-1 {
+    position: relative;
+    padding: 28px 0 0 55px ;
+    color: #ffffff;
+    font-family: "Proxima Bold";
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+}
+
+.block__button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 118px;
+}
+
+.button__apple {
+    display: flex;
+    background: #5e42b0;
+    border-radius: 30px;
+    border: none;
+}
+
+.apple__icon {
+    width: 15px;
+    height: 17px;
+    margin: 11px 0 0 17px;
+    background: url(../img/Header/IconApple.png);
+}
+
+.apple__wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 11px 11px 10px 9px;
+}
+
+.wrap__apple {
+    color: #ffffff;
+    font-family: "Proxima Lt";
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.wrap__apple-1 {
+    color: #ffffff;
+    font-family: "Proxima Semi";
+    font-size: 8px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.button__android {
+    display: flex;
+    margin-left: 8px;
+    background: #5e42b0;
+    border-radius: 30px;
+    border: none;
+}
+
+.android__icon {
+    width: 16px;
+    height: 18px;
+    margin: 10px 0 11px 22px;
+    background: url(../img/Header/IconGoogle_Play.png);
+}
+
+.android__wrap {
+    padding: 10px 30px 11px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap__android {
+    color: #ffffff;
+    font-family: "Proxima Lt";
+    font-size: 8px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.wrap__android-1 {
+    color: #ffffff;
+    font-family: "Proxima Semi";
+    font-size: 8px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.block__nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 35px 35px 20px 35px;
+}
+
+.nav {
+    padding: 11px 15px 0 0;
+    color: #9071ea;
+    font-family: "Proxima Lt";
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.athlet-players {
+    overflow: hidden;
+}
+
+.block-athlet {
+    position: relative;
+}
+
+.wrap__block-1 {
+    padding-top: 25px;
+}
+
+.block-1__title {
+    padding-left: 19px;
+    color: #e7e7e7;
+    font-family: "Proxima Bold";
+    font-size: 50px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.block-1__athlet-position {
+    position: absolute;
+    width: 192px;
+    height: 281px;
+    top: 90px;
+    left: calc(50% - 180px/2);
+}
+
+.athlet-position__cross {
+    position: absolute;
+    top: -51px;
+    left: -80px;
+}
+
+.cross-1 {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.athlet-position__line-element {
+    position: absolute;
+    width: 4px;
+    height: 280px;
+    top: -26px;
+    left: 84px;
+    background: #936eea;
+    transform: rotate(43deg);
+}
+
+.athlet-position__athlet {
+    position: absolute;
+    width: 192px;
+    height: 281px;
+    background: url(../img/athlet-players/footballer.png) no-repeat;
+}
+
+.wrap__number-1 {
+    display: none;
+}
+
+.nimber-1__line {
+    display: none;
+}
+
+.block-1__titles {
+    display: none;
+}
+
+.block-1__text {
+    display: none;
+}
+
+.wrap__block-2 {
+    display: none;
+}
+
+.wrap__number-2 {
+    display: none;
+}
+
+.nimber-2__line {
+    display: none;
+}
+
+.wrap__block-3 {
+    display: none;
+}
+
+.wrap__number-3 {
+    display: none;
+}
+
+.nimber-3__line {
+    display: none;
+}
+
+.block-athlet__slide {
+    display: flex;
+    justify-content: center;
+    padding: 81px 15px 27px 18px;
+    margin-top: 230px;
+    background: #f5f4f9;
+}
+
+.slide__wrap {
+    display: flex;
+}
+
+.wrap__cerd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    color: #000000;
+    font-family: "Proxima Bold";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.card__line {
+    border: solid 2px #5e42b0;
+    border-radius: 20%;
+}
+
+.slider__title {
+    padding-left: 12px;
+    color: #c1c1c1;
+    font-family: "Proxima Bold";
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.slider__text {
+    font-family: "Proxima Rg";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.75px;
+}
+
+.my-fotorama .fotorama__nav:before,
+.my-fotorama .fotorama__stage:before,
+.my-fotorama .fotorama__nav:after,
+.my-fotorama .fotorama__stage:after {
+    display: none;
+}
+
+.my-fotorama .fotorama__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: static;
+    border: none;
+    background-color: #d8d8d8;
+}
+
+.my-fotorama .fotorama__nav--dots .fotorama__nav__frame {
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+
+.my-fotorama .fotorama__nav__frame.fotorama__active .fotorama__dot {
+    width: 10px;
+    height: 10px;
+    background-color: #5c3caf;
+}
+
+.block-players {
+    position: relative;
+}
+
+.block-players__block-1 {
+    padding-top: 35px;
+}
+
+.wrap__block-2 {
+    padding-top: 25px;
+    position: relative;
+}
+
+.block-2__title {
+    padding-left: 19px;
+    color: #e7e7e7;
+    font-family: "Proxima Bold";
+    font-size: 50px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.block-1__players-position {
+    position: absolute;
+    width: 302px;
+    height: 248px;
+    top: 112px;
+    left: calc(50% - 302px/2);
+}
+
+.players-position__cross {
+    position: absolute;
+    top: -62px;
+    left: -15px;
+}
+
+.cross-2 {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.cross-3 {
+    display: none;
+}
+
+.players-position__line-element {
+    position: absolute;
+    width: 4px;
+    height: 170px;
+    top: 83px;
+    left: 96px;
+    background: #936eea;
+    transform: rotate(43deg);
+}
+
+.players-position__line-element-1 {
+    position: absolute;
+    width: 4px;
+    height: 120px;
+    top: 10px;
+    left: 233px;
+    background: #936eea;
+    transform: rotate(40deg);
+}
+
+.players-position__players {
+    position: absolute;
+    width: 302px;
+    height: 248px;
+    background: url(../img/athlet-players/player.png) no-repeat;
+}
+
+.wrap__number-1 {
+    display: none;
+}
+
+.nimber-1__line {
+    display: none;
+}
+
+.block-2__titles {
+    display: none;
+}
+
+.players-block-1__text {
+    display: none;
+}
+
+.wrap__block-2 {
+    display: none;
+}
+
+.wrap__number-2 {
+    display: none;
+}
+
+.nimber-2__line {
+    display: none;
+}
+
+.block-players__block-3 {
+    display: none;
+}
+
+.wrap__number-3 {
+    display: none;
+}
+
+.nimber-3__line {
+    display: none;
+}
+
+.block-players__slide {
+    display: flex;
+    justify-content: center;
+    padding: 81px 15px 27px 18px;
+    margin-top: 230px;
+    background: #f5f4f9;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.first__block {
+    position: relative;
+    padding-bottom: 51px;
+}
+
+.block__img {
+    padding-top: 351px;
+    background: url(../img/first/img.png) no-repeat center;
+    background-size: cover;
+}
+
+.block__img-1 {
+    padding-top: 351px;
+    background: url(../img/first/img1.png) no-repeat center;
+    background-size: cover;
+}
+
+.block__img-2 {
+    padding-top: 351px;
+    background: url(../img/first/img2.png) no-repeat center;
+    background-size: cover;
+}
+
+.block__square {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 27px 27px 22px 28px;
+    background: #5e42b0;
+    top: 293px;
+    left: 19px;
+}
+
+.square__number {
+    color: #f5f6f7;
+    font-family: "Proxima Bold";
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.square-number__line {
+    border: 2px solid #ffffff;
+    border-radius: 15%;
+    opacity: 0.3;
+}
+
+.block__wraper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wraper__title {
+    padding: 30px 0 0 19px;
+    color: #e7e7e7;
+    font-family: "Proxima Bold";
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.wraper__text {
+    padding: 23px 0 0 19px;
+    font-family: "Proxima Rg";
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+}
+
+.wraper__line {
+    margin: 23px 0 0 19px;
+    width: 22px;
+    border: 2px solid #5e3db3;
+    border-radius: 15%;
+}
+
+.footer {
+    background: url(../img/footer/bg.png) no-repeat;
+    background-size: cover;
+}
+
+.wrapping__img {
+    svg {
+        margin: 97px 0 0 calc(50% - 73px/2);
+    }    
+}
+
+.wrapping__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.banner__line-element {
+    position: absolute;
+    width: 90px;
+    height: 4px;
+    top: 28px;
+    left: -11px;
+    background: #936eea;
+    transform: rotate(131deg);
+}
+
+.banner__line-element-1 {
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    top: 33px;
+    left: 103px;
+    background: #936eea;
+    transform: rotate(131deg);
+}
+
+.banner__title {
+    position: relative;
+    color: #ffffff;
+    font-family: "Proxima Bold";
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+}
+
+.banner__text {
+    position: relative;
+    color: #9b8ec1;
+    font-family: "Proxima Bold";
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+.wrapping__button {
+    margin: 72px 10px 0 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapping__copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 127px;
+    background: rgb(10,14,52,0.6);
+    svg {
+        margin: 20px 20px 15px 20px;
+    }
+}
+
+.copyright__logo{
+    display: none;
+}
+
+.copyright__copr {
+    display: none;
+}
+
+@import './_media-s.scss'; //(min-width: 768px)
+@import './_media-m.scss'; //(min-width: 1200px)
+@import './_media-xll.scss'; //(min-width: 1920px)

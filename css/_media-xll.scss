@@ -1,0 +1,262 @@
+@media (min-width: 1920px) {
+    .header {
+        background: url(../img/Header/bg-s.png) no-repeat;
+        background-size: cover;
+        position: relative;
+    }   
+    
+    .header__container {
+        padding: 54px 193px 100px 196px;
+    }
+        
+    .container__block {
+        padding-top: 309px;
+    }
+        
+    .block__wrap {
+        align-items: unset;
+    }
+
+    .wrap__line-element {
+        left: calc(32.5% - 404px/2);
+        transform: rotate(125deg);
+    }
+    
+    .wrap__title {
+        padding: 0;
+        font-size: 90px;
+        letter-spacing: 5px;
+    }
+    
+    .wrap__title-1 {
+        position: unset;
+        padding: 33px 0 0 446px ;
+        font-size: 90px;
+        letter-spacing: 4.5px;
+    }
+    
+    .block__button {
+        justify-content: center;
+        margin-top: 181px;
+    }
+        
+    .button__android {
+        margin: 0 0 0 50px;
+    }
+    
+    .block__nav {
+        justify-content: end;
+        padding: 20px 0 0 500px;
+        :last-child {
+            padding: 0;
+        }
+    }
+        
+    .wrap__block-1 {
+        padding: 112px 256px 60px 50%;
+    }
+
+    .block-1__titles {
+        padding-top: 17px;
+    }
+
+    .wrap__number-1 {
+        padding-top: 15px;
+    }
+
+    .block-1__athlet-position {
+        width: 725px;
+        height: 1105px;
+        top: 67px;
+        left: 200px;
+    }    
+   
+    .athlet-position__cross {
+        left: 49px;
+        top: 61px;
+    }
+        
+    .athlet-position__line-element {
+        height: 900px;
+        top: -66px;
+        left: 307px;
+        transform: rotate(41deg);
+        z-index: 1;
+    }
+
+    .athlet-position__athlet {
+        width: 725px;
+        height: 1105px;
+        background: url(../img/athlet-players/footballer-xxl.png) no-repeat;
+    }
+
+    .wrap__block-2 {
+        padding: 64px 256px 61px 50%;
+    }
+
+    .block-2__wrap {
+        display: flex; 
+        align-items: center;
+    }
+
+    .wrap__number-2 {
+        padding-top: 15px;
+    }
+        
+    .wrap__block-3 {
+        padding: 91px 286px 61px 50%;
+    }
+
+    .wrap__number-3 {
+        padding-top: 15px;
+    }
+    
+    .number-3__line {
+        margin-top: 3px;
+    }   
+    
+    .block-players__block-1 {
+        padding: 100px 0 71px 248px;
+    }
+    
+    .block-2__title {
+        padding: 0;
+        font-size: 90px;
+        text-align: unset;
+    }
+    
+    .block-1__text {
+        padding-top: 21px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .block-1__players-position {
+        width: 991px;
+        height: 815px;
+        top: -27px;
+        left: 37%;
+    }
+
+    .players-position__cross {
+        top: 74px;
+        left: 252px;
+    }
+
+    .cross-3 {
+        top: 235px;
+        left: 443px;
+    }
+        
+    .players-position__line-element {
+        height: 620px;
+        top: 213px;
+        left: 384px;
+    }
+    
+    .players-position__line-element-1 {
+        height: 430px;
+        top: 13px;
+        left: 785px;
+    }
+
+    .players-position__players {
+        width: 991px;
+        height: 815px;
+        background: url(../img/athlet-players/player-xxl.png) no-repeat;
+    }
+    
+    .block-players__block-2 {
+        padding: 46px 0 71px 248px;
+    }
+    
+    .block-players__block-3 {
+        padding: 46px 0 71px 248px;
+    }
+
+    .players-wrap__number-3 {
+        padding-top: 15px;
+    }
+
+    .players-block-1__text {
+        width: 36%;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .first__block {
+        display: flex;
+        padding-bottom: 0;
+    }
+    
+    .block__img {
+        padding: 730px 50% 0 0;
+    }
+    
+    .block__img-1 {
+        padding: 730px 50% 0 0;
+    }
+    
+    .block__img-2 {
+        padding: 730px 50% 0 0;
+    }
+    
+    .block__square {
+        padding: 62px 72px 61px 72px;
+        top: 28.5%;
+        left: calc(50% - 175px/2);
+    }
+
+    .square-p {
+        padding: none;
+        right: unset;
+    }
+            
+    .wraper__title {
+        padding: 235px 34px 0 127px;
+    }
+
+    .title-p-2 {
+        padding: 235px 130px 0 185px;
+    }
+    
+    .wraper__text {
+        padding: 119px 510px 0 128px;
+    }
+
+    .text-p-2 {
+        width: 72%;
+        padding: 77px 0 0 192px;
+    }
+
+    .text-p-3 {
+        padding: 119px 320px 0 128px;
+    }
+    
+    .wraper__line {
+        margin: 87px 0 0 128px;
+    }
+
+    .line-m-2 {
+        margin: 119px 0 0 192px;
+    }
+    
+    .wrapping__copyright {
+        justify-content: space-between;
+        svg {
+            margin: 74px 20px 75px 20px; 
+        }
+    }
+    
+    .copyright__brand {
+        margin-left: 177px;
+    }
+
+    .copyright__logo{
+        margin: 0 0 0 50px;
+    }
+    
+    .copyright__copr {
+        padding:0 60px 0 0;
+    }
+}

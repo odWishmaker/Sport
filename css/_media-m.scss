@@ -1,0 +1,213 @@
+@media (min-width: 1200px) {
+    .header {
+        background: url(../img/Header/bg-s.png) no-repeat;
+        background-size: cover;
+        position: relative;
+    }   
+    
+    .header__container {
+        padding: 54px 40px 100px 40px;
+    }
+    
+    .container__block {
+        padding-top: 250px;
+    }
+    
+    .wrap__title {
+        padding-right: 152px;
+        font-size: 75px;
+    }
+    
+    .wrap__title-1 {
+        padding: 33px 0 0 177px ;
+        font-size: 75px;
+    }
+    
+    .block__button {
+        justify-content: center;
+    }
+        
+    .button__android {
+        margin: 0 0 0 200px;
+    }
+    
+    .block__nav {
+        justify-content: center;
+        padding: 20px 0 0 500px;
+    }
+    
+    .nav {
+        font-size: 14px;
+    }
+
+    .wrap__block-1 {
+        padding: 92px 56px 73px 50%;
+    }
+    
+    .block-1__text {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .block-1__athlet-position {
+        left: 80px;
+    }
+
+    .athlet-position__cross {
+        top: 0px;
+        left: -30px;
+    }
+    
+    .athlet-position__line-element {
+        height: 550px;
+        top: -42px;
+        left: 223px;
+        transform: rotate(41deg);
+        z-index: 1;
+    }
+
+    .wrap__block-2 {
+        padding: 92px 56px 73px 50%;
+    }
+    
+    .wrap__block-3 {
+        padding: 92px 56px 73px 50%;
+    }
+
+    .block-players__block-1 {
+        padding: 92px 0 40px 56px;
+    }
+    
+    .block-2__title {
+        padding: 0;
+        font-size: 90px;
+        text-align: unset;
+    }
+
+    .block-1__players-position {
+        left: 37%;
+    }
+
+    .players-position__cross {
+        left: 149px;
+    }
+
+    .cross-3 {
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: 321px;
+    }
+        
+    .players-position__line-element {
+        left: 255px;
+    }
+    
+    .players-position__line-element-1 {
+        display: block;
+        height: 300px;
+        top: 4px;
+        left: 539px;
+    }
+    
+    .block-players__block-2 {
+        padding: 63px 0 40px 56px;
+    }
+
+    .block-players__block-3 {
+        padding: 63px 0 40px 56px;
+    }
+
+    .players-block-1__text {
+        width: 48%;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .first__block {
+        display: flex;
+        padding-bottom: 0;
+    }
+
+    .revers {
+        display: flex;
+        justify-content: right;
+    }
+    
+    .block__img {
+        padding: 545px 50% 0 0;
+        background: url(../img/first/img-m.png) no-repeat center;
+        background-size: cover;
+    }
+    
+    .block__img-1 {
+        padding: 545px 50% 0 0;
+        background: url(../img/first/img1-m.png) no-repeat center;
+        background-size: cover;
+        order: 2;
+    }
+    
+    .block__img-2 {
+        padding: 545px 50% 0 0;
+        background: url(../img/first/img2-m.png) no-repeat center;
+        background-size: cover;
+    }
+    
+    .block__square {
+        top: 77.8%;
+        left: 50%;
+    }
+
+    .square-p {
+        padding: 43px 42px 41px 46px;
+        top: 78.5%;
+        right: 50%;
+        left: unset;
+    }
+            
+    .wraper__title {
+        padding: 87px 34px 0 34px;
+    }
+
+    .title-p-2 {
+        display: flex;
+        padding: 87px 34px 0 34px;
+    }
+
+    .wraper__text {
+        padding: 23px 40px 0 35px;
+    }
+
+    .text-p-2 {
+        padding: 23px 35px 0 40px;
+    }
+    
+    .line-m-2 {
+        margin: 33px 0 0 40px;
+    }
+    
+    .wrapping__button {
+        justify-content: center;
+    }
+
+    .wrapping__copyright {
+        align-items: center;
+        margin-top: 200px;
+    }    
+
+    .copyright__logo{
+        display: block;
+        padding: 30px 172px 0 0;
+        margin-right: 20px;
+        background: url(../img/footer/logo.png) no-repeat;
+    }
+    
+    .copyright__copr {
+        display: block;
+        padding-left: 20px;
+        color: #ffffff;
+        font-family: "Proxima Rg";
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
