@@ -1113,8 +1113,13 @@ body {
     font-size: 20px;
     letter-spacing: 1px;
   }
+  .block-athlet__wrap__block-1 {
+    position: absolute;
+    right: 50%;
+    top: 0px;
+  }
   .block-1__athlet-position {
-    left: 80px;
+    left: -500px;
   }
   .athlet-position__cross {
     top: 0px;
@@ -1298,11 +1303,14 @@ body {
   .wrap__number-1 {
     padding-top: 15px;
   }
+  .block-athlet__wrap__block-1 {
+    top: -5px;
+  }
   .block-1__athlet-position {
     width: 725px;
     height: 1105px;
     top: 67px;
-    left: 200px;
+    left: -770px;
   }
   .athlet-position__cross {
     left: 49px;
