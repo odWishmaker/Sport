@@ -1,10 +1,4 @@
-@media (min-width: 1200px) {
-    .header {
-        background: url(../img/Header/bg-s.png) no-repeat;
-        background-size: cover;
-        position: relative;
-    }   
-    
+@media (min-width: 1200px) {    
     .header__container {
         padding: 54px 40px 100px 40px;
     }
@@ -142,21 +136,15 @@
     
     .block__img {
         padding: 545px 50% 0 0;
-        background: url(../img/first/img-m.png) no-repeat center;
-        background-size: cover;
     }
     
     .block__img-1 {
         padding: 545px 50% 0 0;
-        background: url(../img/first/img1-m.png) no-repeat center;
-        background-size: cover;
         order: 2;
     }
     
     .block__img-2 {
         padding: 545px 50% 0 0;
-        background: url(../img/first/img2-m.png) no-repeat center;
-        background-size: cover;
     }
     
     .block__square {
@@ -205,6 +193,7 @@
         display: block;
         padding: 30px 172px 0 0;
         margin-right: 20px;
+        cursor: pointer;
         background: url(../img/footer/logo.png) no-repeat;
     }
     

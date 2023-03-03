@@ -43,7 +43,8 @@ body {
 }
 
 .header {
-  background: url(../img/Header/bg.png) no-repeat;
+  background: url(../img/Header/bg.png) no-repeat center;
+  background-color: #061242;
   background-size: cover;
   position: relative;
 }
@@ -56,6 +57,7 @@ body {
   width: 100%;
   padding-top: 24px;
   background: url(../img/Header/logo.png) no-repeat center center;
+  cursor: pointer;
 }
 
 .container__text {
@@ -107,6 +109,16 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 118px;
+}
+.block__button :hover {
+  cursor: pointer;
+  background: #000000;
+}
+.block__button :hover .apple__icon {
+  background: url(../img/Header/IconApple.png) no-repeat;
+}
+.block__button :hover .android__icon {
+  background: url(../img/Header/IconGoogle_Play.png) no-repeat;
 }
 
 .button__apple {
@@ -190,6 +202,10 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 35px 35px 20px 35px;
+}
+.block__nav :hover {
+  cursor: pointer;
+  color: #ffffff;
 }
 
 .nav {
@@ -545,7 +561,7 @@ body {
 
 .square-number__line {
   border: 2px solid #ffffff;
-  border-radius: 15%;
+  border-radius: 20%;
   opacity: 0.3;
 }
 
@@ -575,11 +591,12 @@ body {
   margin: 23px 0 0 19px;
   width: 22px;
   border: 2px solid #5e3db3;
-  border-radius: 15%;
+  border-radius: 20%;
 }
 
 .footer {
-  background: url(../img/footer/bg.png) no-repeat;
+  background: url(../img/footer/bg.png) no-repeat center;
+  background-color: #061242;
   background-size: cover;
 }
 
@@ -644,6 +661,16 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.wrapping__button :hover {
+  cursor: pointer;
+  background: #000000;
+}
+.wrapping__button :hover .apple__icon {
+  background: url(../img/Header/IconApple.png) no-repeat;
+}
+.wrapping__button :hover .android__icon {
+  background: url(../img/Header/IconGoogle_Play.png) no-repeat;
+}
 
 .wrapping__copyright {
   display: flex;
@@ -652,6 +679,7 @@ body {
   background: rgba(10, 14, 52, 0.6);
 }
 .wrapping__copyright svg {
+  cursor: pointer;
   margin: 20px 20px 15px 20px;
 }
 
@@ -664,11 +692,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .header {
-    background: url(../img/Header/bg-s.png) no-repeat;
-    background-size: cover;
-    position: relative;
-  }
   .header__container {
     padding: 53px 20px 91px 20px;
   }
@@ -715,6 +738,21 @@ body {
   .block__button {
     margin-top: 116px;
     order: 2;
+  }
+  .block__button :hover {
+    border-radius: 50px;
+  }
+  .block__button :hover .apple__icon {
+    width: 33px;
+    height: 37px;
+    border-radius: 0;
+    background: url(../img/Header/IconApple-s.png);
+  }
+  .block__button :hover .android__icon {
+    width: 36px;
+    height: 39px;
+    border-radius: 0;
+    background: url(../img/Header/IconGoogle_Play-s.png);
   }
   .button__apple {
     border-radius: 50px;
@@ -975,18 +1013,12 @@ body {
   }
   .block__img {
     padding-top: 584px;
-    background: url(../img/first/img-s.png) no-repeat center;
-    background-size: cover;
   }
   .block__img-1 {
     padding-top: 584px;
-    background: url(../img/first/img1-s.png) no-repeat center;
-    background-size: cover;
   }
   .block__img-2 {
     padding-top: 584px;
-    background: url(../img/first/img2-s.png) no-repeat center;
-    background-size: cover;
   }
   .block__square {
     padding: 43px 46px 41px 46px;
@@ -1019,10 +1051,6 @@ body {
     width: 22px;
     border: 2px solid #5e3db3;
     border-radius: 15%;
-  }
-  .footer {
-    background: url(../img/footer/bg-s.png) no-repeat;
-    background-size: cover;
   }
   .wrapping__img svg {
     width: 130px;
@@ -1057,6 +1085,21 @@ body {
   .wrapping__button {
     margin: 198px 10px 0 10px;
   }
+  .wrapping__button :hover {
+    border-radius: 50px;
+  }
+  .wrapping__button :hover .apple__icon {
+    width: 33px;
+    height: 37px;
+    border-radius: 0;
+    background: url(../img/Header/IconApple-s.png);
+  }
+  .wrapping__button :hover .android__icon {
+    width: 36px;
+    height: 39px;
+    border-radius: 0;
+    background: url(../img/Header/IconGoogle_Play-s.png);
+  }
   .wrapping__copyright svg {
     margin: 37px 20px 36px 20px;
   }
@@ -1074,11 +1117,6 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  .header {
-    background: url(../img/Header/bg-s.png) no-repeat;
-    background-size: cover;
-    position: relative;
-  }
   .header__container {
     padding: 54px 40px 100px 40px;
   }
@@ -1188,19 +1226,13 @@ body {
   }
   .block__img {
     padding: 545px 50% 0 0;
-    background: url(../img/first/img-m.png) no-repeat center;
-    background-size: cover;
   }
   .block__img-1 {
     padding: 545px 50% 0 0;
-    background: url(../img/first/img1-m.png) no-repeat center;
-    background-size: cover;
     order: 2;
   }
   .block__img-2 {
     padding: 545px 50% 0 0;
-    background: url(../img/first/img2-m.png) no-repeat center;
-    background-size: cover;
   }
   .block__square {
     top: 77.8%;
@@ -1239,6 +1271,7 @@ body {
     display: block;
     padding: 30px 172px 0 0;
     margin-right: 20px;
+    cursor: pointer;
     background: url(../img/footer/logo.png) no-repeat;
   }
   .copyright__copr {
@@ -1251,11 +1284,6 @@ body {
   }
 }
 @media (min-width: 1920px) {
-  .header {
-    background: url(../img/Header/bg-s.png) no-repeat;
-    background-size: cover;
-    position: relative;
-  }
   .header__container {
     padding: 54px 193px 100px 196px;
   }
@@ -1446,6 +1474,15 @@ body {
   }
   .line-m-2 {
     margin: 119px 0 0 192px;
+  }
+  .wrapping {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 200px;
+  }
+  .wrapping__img {
+    margin-right: 76px;
   }
   .wrapping__copyright {
     justify-content: space-between;

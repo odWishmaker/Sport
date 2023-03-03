@@ -1,10 +1,4 @@
-@media (min-width: 1920px) {
-    .header {
-        background: url(../img/Header/bg-s.png) no-repeat;
-        background-size: cover;
-        position: relative;
-    }   
-    
+@media (min-width: 1920px) {    
     .header__container {
         padding: 54px 193px 100px 196px;
     }
@@ -243,6 +237,17 @@
 
     .line-m-2 {
         margin: 119px 0 0 192px;
+    }
+
+    .wrapping {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-top: 200px;
+    }
+
+    .wrapping__img {
+        margin-right: 76px;
     }
     
     .wrapping__copyright {
